@@ -1,0 +1,28 @@
+{
+    "sortCriteria": {
+      "ALPHASC": {
+      "field": "name",
+      "desc": false,
+      "type": "TEXT",
+      "text": "Alphabet Ascending"
+      },
+      "ALPHDESC": {
+        "field": "name",
+        "desc": true,
+        "type": "TEXT",
+        "text": "Alphabet Descending"
+      },
+      "DATEASC": {
+        "field": "founded_on",
+        "desc": false,
+        "type": "NUMBER",
+        "text": "Date Ascending"
+      },
+      "DATEDESC": {
+        "field": "founded_on",
+        "desc": true,
+        "type": "NUMBER",
+        "text": "Date Descending"
+      }
+  }
+}

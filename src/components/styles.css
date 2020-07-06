@@ -1,0 +1,121 @@
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flexContainer {
+  display: flex;
+  border: 3px gray solid;
+  border-radius: 15px;
+  padding: 3%;
+  background: #234b6d;
+  width: 60rem;
+}
+
+.listElement {
+  margin-top: 1rem;
+}
+
+.utilitiesContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 4rem;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+}
+
+.inputWidth {
+  width: 22rem;
+}
+
+.button {
+  border-radius: 15px;
+  background-color: #234b6d;
+  height: 2rem;
+  border-color: white;
+  border-width: 2px;
+  width: 8rem;
+}
+
+.button > b {
+  color: white !important;
+}
+
+.sortCriteriaContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-right: 0.5rem;
+}
+
+.buttonDeleteSort {
+  background-color: transparent;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100px;
+  border-width: 0;
+}
+
+.MuiDialog-paper {
+  width: 22rem;
+  background-color: #042b41  !important;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sortCriteriaContainer > p {
+  margin-block-end: 0 !important;
+}
+
+.body {
+  background: #042b41;
+}
+
+p { 
+  font-family: "Open Sans"; 
+  font-size: 14px; 
+  font-style: normal; 
+  font-variant: normal;
+  margin-block-start: 0;
+  font-weight: bold;
+  color: white;
+} 
+
+b {
+  color: rgb(184, 181, 181) !important;
+  font-weight: bolder;
+  font-family: "Open Sans";
+}
+
+@media screen and (max-width: 1000px) {
+  .flexContainer {
+    width: auto;
+  }
+  .utilitiesContainer {
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .inputWidth {
+    width: auto;
+  }
+  .button {
+    margin-top: 0.5rem;
+    width: 30%;
+  }
+  .buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
